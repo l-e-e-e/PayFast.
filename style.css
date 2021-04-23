@@ -1,0 +1,264 @@
+body{
+  background-image: linear-gradient(#EDF5FF,#FFFFFF);
+}
+.header{
+  width: 100%;
+  color: snow ;
+  font-size:30px;
+  height: 5%;
+  text-align: center;
+  background-image: linear-gradient(#3EF4B6 ,#FF53F9);
+  margin: 0;
+
+}
+.header h1{
+  padding:30px 0 0 0;
+  margin: 0;
+  
+}
+.header cite{
+  margin: 0;
+}
+
+.header button{
+  background-color: #009FF3;
+  color:#FFFFFF;
+  width:20%;
+  height:40%;
+  padding:10px;
+  font-size:20px;
+  border-radius:30px;
+  margin:0 0 15px 700px;
+  transition: 500ms;
+
+  
+}
+.header button:hover{
+  background-color: #00EDFB;
+  
+}
+
+.nav{
+  background-color: black;
+  font-size: 20px;
+  font-weight: bold;
+  width:100%;
+  margin: 0;
+  transition: 1s;
+
+}
+.nav a{
+  color: white;
+  text-decoration:none;
+  padding:0 15px;
+  display:inline-block;
+
+}
+.nav :hover{
+  background-color: #BF09FF;
+  color:white;
+}
+.homeservices,.booking,.payments{
+  
+  border-radius: 5px 5px 30px 30px;
+  width:100%;
+  overflow: auto;
+  white-space: nowrap;
+  display:inline-flex;
+  transition: 2s;
+}
+.homeservices :hover{
+  transform: scale(1.1);
+}
+.booking :hover{
+  transform:scale(1.1);
+}
+.payments :hover{
+  transform: scale(1.1);
+}
+
+.grocery,.gas ,.cleaning,.painting{
+  height: 300px;
+  width: 170px;
+  text-align:center;
+  border-width: 5px;
+  border-radius:10px;
+  background-color:#9DDCAB;
+  padding:0 30px;
+  margin: 15px;
+  float:left;
+  }
+.cleanimg,.gasimg,.groimg,.paintimg{
+  height: 150px;
+  width:150px;
+  padding:10px;
+  background-size:cover;
+  border-radius:75px;
+}
+
+.movies,.train,.bus,.flight{
+  height: 300px;
+  width: 170px;
+  text-align:center;
+  border-radius:10px;
+  background-image: linear-gradient(#00EDFD,#FFFFFF);
+  padding:0 30px;
+  margin: 15px;
+  float:left;
+}
+.booking div h3{
+  color:#11068E;
+}
+.movieimg,.trainimg,.busimg,.flightimg{
+    height: 150px;
+    width:150px;
+    padding:10px;
+    background-size:cover;
+    border-width:20px;
+    border-radius:75px;
+}
+.pay,.recharge,.shopping,.electricity,.housetax{
+   height: 300px;
+   width: 170px;
+   text-align:center;
+   border-radius:10px;
+   background-image: linear-gradient(#00FEEC,#FEFEFE);
+   padding:0 30px;
+   margin: 15px;
+   float:left;
+}
+.payments{
+  color: #1F3291;
+}
+.payimg,.rechargeimg,.electricimg,.housetaximg,.shopimg{
+height: 150px;
+width:150px;
+padding:10px;
+background-size:cover;
+border-width:20px;
+border-radius:75px;
+}
+.contacts{
+  width:100%;
+  color:#1FFBEA;
+  background-image: linear-gradient(#000000,#454A49);
+  display:inline-flex;
+  border-radius:5px 5px 10px 10px;
+  transition: 1s;
+  }
+ .contacts :hover{
+    transform: scale(1.1);
+  }
+.email,.web{
+  padding:2px 20px;
+  background-image: linear-gradient(#A6F7F7,#FFFFFF);
+  width:40%;
+  height:20%;
+  border-radius:5px;
+  margin:20px 30px 20px 40px;
+  color: #000000;
+}
+
+.email a,.web a{
+  text-decoration:none;
+}
+.indevelop {
+  float: left;
+  word-spacing: 5px;
+  background-color: #1E1F2F;
+  color: #FFFFFF;
+  border-radius:5px 5px 10px 10px;
+}
+#company{
+border-radius:200px;
+float:left;
+margin-right: 20px;
+}
+#facebook,#whatsapp,#twitter{
+border-radius:70px;
+width:10%;
+height:10%;
+margin: 20px;
+}
+.indevelop b{
+  color:#00EFFF;
+}
+.footer{
+  background-color: grey;
+  color:white;
+  border-radius:0 0 10px 10px;
+  text-align: center;
+  font-size:30px;
+}
+.footer img{
+  width:10%;
+  height: 10%;
+  border-radius:70px;
+  margin: 20px;
+}
+.footer ul{
+  list-style: none;
+  display: inline-flex;
+  text-align: center;
+}
+.footer li a{
+  text-decoration:none;
+  color: whitesmoke;
+  margin: 20px;
+}
+
+@media screen and (max-width: 480px){
+  body{
+    width:100%;
+  }
+ .header{
+   font-size: 130%;
+ }
+ .header cite{
+   font-size: 80%;
+ }
+  .header button{
+    margin: 10px 0 10px 210px;
+    width:30%;
+    white-space: nowrap;
+    font-size:15px;
+  }
+  .nav{
+    display: inline-flex;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  .grocery,.gas ,.cleaning,.painting,.movies,.train,.bus,.flight,.pay,.recharge,.shopping,.electricity,.housetax{
+    height: 100%;
+    width: 40%;
+  }
+  .cleanimg,.gasimg,.groimg,.paintimg,.movieimg,.trainimg,.busimg,.flightimg,.payimg,.rechargeimg,.electricimg,.housetaximg,.shopimg{
+  width: 75px;
+  height: 75px;
+  padding:10px;
+  background-size:cover;
+  
+  }
+  
+  .contacts{
+   overflow:auto;
+   display: inline-block;
+  }
+  .email,.web{
+    margin: 8px 10px;
+    width: 80%;
+  }
+  .footer{
+  font-size:10px;
+}
+#policy{
+  margin:20px 20px 20px -10px;
+}
+  #company{ 
+    width:30%;
+    height:40%;
+  }
+  #facebook{
+    margin: 20px 20px 20px 80px;
+  }
+} 
